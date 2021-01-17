@@ -27,7 +27,7 @@ Some discards have special effects on the game flow:
 | J     | Same suit or value | The player must swap his hand with the hand of some other player        |
 | Q     | Anytime            | Next player must draw four stock cards at the beginning of his turn     |
 | K     | Same suit or value | The direction of game changes before the start of the next players turn |
-| A     | Anytime            | None                                                                    |
+| A     | Anytime            | A free card to throw anytime.                                           |
 
 If a player is not able to discard any card, he must draw a card from
 the stock pile. If that card can be discarded, the player must do so

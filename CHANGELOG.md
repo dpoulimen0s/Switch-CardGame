@@ -15,7 +15,8 @@
   - In user_interface.py line 2 removed unused "import random".
   - In switch.py line 68 added a space due to PEP 8: E261.
   - In switch.py line 185 added "global i" due to a warning from line 202.
-
+  - Description added in README.md file line 30 for A card. 
+  
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting
   - In switch.py line 285 added the missing parenthesis.
   - In players.py line 50 added the missing parenthesis.
