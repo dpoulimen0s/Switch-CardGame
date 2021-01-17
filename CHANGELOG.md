@@ -1,6 +1,7 @@
 # CHANGELOG
 * v2.0.0 [2021-01-17]: Major Updates 
   - In switch.py line 52 changed (name) into [name] and added (typ) as well.
+  - In user_interface.py line 113 changed the for loop into this: for i, card in enumerate(cards):
 
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.
