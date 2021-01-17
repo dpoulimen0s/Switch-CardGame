@@ -9,13 +9,14 @@
   - In switch.py line 74 changed "elif won" to "elif not won".
   - In switch.py line 79 changed players[1] to players[i].
   - In switch.py line 111 broke down the long line to fit  the character limit per line.
-  - In switch.py line 97 changed "==" to "=" .
-  - In switch.py line 161 changed False to True . 
-  - In README.py line 37 fixed a typo .
-  - In user_interface.py line 2 removed unused "import random" .
-  - In switch.py line 68 added a space due to PEP 8: E261 .
+  - In switch.py line 97 changed "==" to "=".
+  - In switch.py line 161 changed False to True. 
+  - In README.py line 37 fixed a typo.
+  - In user_interface.py line 2 removed unused "import random".
+  - In switch.py line 68 added a space due to PEP 8: E261.
+  - In switch.py line 185 added "global i" due to a warning from line 202.
 
-* v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
+* v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting
   - In switch.py line 285 added the missing parenthesis.
   - In players.py line 50 added the missing parenthesis.
  
@@ -24,8 +25,8 @@
   - Added REPO.txt with the link to Nucode.
   - Added folder doc and i have created doc folder with Report.md file as requested.
 
-* v1.1.0 [2019-11-08]: Added a SmartAI computer opponent.
-  - Added strategy players.SmartAI
+* v1.1.0 [2019-11-08]: Added a SmartAI computer opponent
+  - Added strategy players.SmartAI.
   - None of the bugs have been fixed.
 
 * v1.1.0 [2019-10-25]: First major release.

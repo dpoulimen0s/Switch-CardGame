@@ -181,6 +181,8 @@ class Switch:
         sufficient, the maximum possible number of cards is picked.
         """
         # repeat n times
+
+        global i
         for i in range(1, amount+1):
             # if no more card in stock pile
             if not self.stock:
