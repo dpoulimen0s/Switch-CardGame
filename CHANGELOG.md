@@ -4,7 +4,8 @@
   - In user_interface.py line 113 changed the for loop into this: for i, card in enumerate(cards): .
   - In user_interface.py line 127 changed "for player, idx" into "for idx, player".
   - In user_interface.py line 128 fixed the print statement.
-  - In user_interface.py typo in line 1
+  - In user_interface.py typo in line 1.
+  - In cards.py line 11 removed double "2" from the values.
   
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.
