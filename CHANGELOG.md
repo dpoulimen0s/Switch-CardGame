@@ -12,6 +12,7 @@
   - In switch.py line 97 changed "==" to "=" .
   - In switch.py line 161 changed False to True . 
   - In README.py line 37 fixed a typo .
+  - In user_interface.py line 2 removed unused "import random" .
 
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.

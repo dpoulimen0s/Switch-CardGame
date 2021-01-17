@@ -1,5 +1,4 @@
 """command line interface for the switch game"""
-import random
 
 
 def print_message(msg):
