@@ -108,7 +108,9 @@ class Switch:
         Returns:
         True if no-one has won within his turn, otherwise False.
 
-        In each turn, game effects are applied according to the outcome of the last turn. The player is then asked to select a card via a call to Player.select_card which is then discarded via a call to discard_card. If the player has no discardable card (or chooses voluntarily not to discard), draw_and_discard is called to draw from stock.
+        In each turn, game effects are applied according to the outcome of the last turn. The player is then asked to
+        select a card via a call to Player.select_card which is then discarded via a call to discard_card. If the player
+         has no discardable card (or chooses voluntarily not to discard), draw_and_discard is called to draw from stock.
         """
         # apply any pending penalties (skip, draw2, draw4)
         if self.skip:

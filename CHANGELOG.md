@@ -8,6 +8,7 @@
   - In cards.py line 11 removed double "2" from the values.
   - In switch.py line 74 changed "elif won" to "elif not won".
   - In switch.py line 79 changed players[1] to players[i].
+  -In switch.py line 111 broke down the long line to fit  the character limit per line.
 
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.
