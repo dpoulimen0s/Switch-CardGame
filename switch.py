@@ -65,7 +65,7 @@ class Switch:
         # deal cards etc.
         self.setup_round()
 
-        i = 0 # current player index
+        i = 0  # current player index
         while True:
             # process current player's turn
             won = self.run_player(self.players[i])

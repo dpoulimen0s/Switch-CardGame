@@ -13,6 +13,7 @@
   - In switch.py line 161 changed False to True . 
   - In README.py line 37 fixed a typo .
   - In user_interface.py line 2 removed unused "import random" .
+  - In switch.py line 68 added a space due to PEP 8: E261 .
 
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.
