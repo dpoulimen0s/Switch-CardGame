@@ -34,7 +34,7 @@ the stock pile. If that card can be discarded, the player must do so
 immediately, otherwise the card goes into the players hand and play
 proceeds with the next player.
 
-If there is no more card in the stock pile, all discards but the top
+If there is no more card in the stock pile, all discards, but the top
 card are shuffled and placed face down to form a new stock pile.
 
 
