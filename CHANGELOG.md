@@ -6,6 +6,7 @@
   - In user_interface.py line 128 fixed the print statement.
   - In user_interface.py typo in line 1.
   - In cards.py line 11 removed double "2" from the values.
+  - In switch.py line 74 changed "elif won" to "elif not won".
   
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.

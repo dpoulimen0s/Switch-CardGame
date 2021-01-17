@@ -71,7 +71,7 @@ class Switch:
             won = self.run_player(self.players[i])
             if won:
                 break
-            elif won:
+            elif not won:
                 # advance player index depending on self.direction
                 i = (i+self.direction) % len(self.players)
             else:
