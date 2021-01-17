@@ -1,7 +1,8 @@
 # CHANGELOG
 * v1.1.1 [2021-01-17]: Errors have been fixed that prevent the program from starting.
   - In switch.py line 285 added the missing parenthesis.
-
+  - In players.py line 50 added the missing parenthesis.
+  
 * v1.1.0 [2021-01-17]: File Updates
   - Updated LICENCE.MD file accordingly.
   - Added REPO.txt with the link to Nucode.
