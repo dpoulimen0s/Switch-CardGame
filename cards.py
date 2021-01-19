@@ -10,10 +10,10 @@ class Card(namedtuple('CardData', ['suit', 'value'])):
     suits = '♣ ♢ ♡ ♠'.split()
     values = ' 2 3 4 5 6 7 8 9 10 J Q K A'.split()
 
-    def __new__(cls, suit, value):
+    def __new__(cls, suit, values):
         assert suit in cls.suits
-        assert value in cls.values
-        return super().__new__(cls, suit, value)
+        assert values in cls.values
+        return super().__new__(cls, suit)
 
     def __str__(self):
         return '{} {}'.format(self.suit, self.value)
