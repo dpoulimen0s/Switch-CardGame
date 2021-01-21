@@ -4,10 +4,10 @@
   - In test_switch.py lines 155,156,157 changed K to Q.
   - In test_switch.py line 54 changed False to True.
   - In test_switch.py line 117 changed "assert game.draw4" to "assert not game.draw4".
+  - Updated Report.md in doc folder.
 
-* v2.0.1 [2021-01-19]:Updates
+* v2.0.1 [2021-01-19]:Update
   - In players.py line 50 changed this return random.choice() into this return random.choice(choices).
-  - In cards.py line 16 removed value from parameters.
   
 * v2.0.0 [2021-01-17]: Major Updates 
   - In switch.py line 52 changed (name) into [name] and added (typ) as well.

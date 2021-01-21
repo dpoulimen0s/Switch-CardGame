@@ -9,7 +9,7 @@ On the other hand it is quite challenging and can make you understand the proces
 <p>
 Hopefully, I had the experience to find those errors on the go which means that I didn't use debugger at all.
 Although the debugger is the best tool to use in situations like this I didn't use it.
-I was able to deal with the errors just by skimming the code once I understand  what game does. 
+I was able to deal with the errors just by following pylint for the main code and pytest module for test_switch.py file. 
 </p>
 
 <p>
