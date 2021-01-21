@@ -51,7 +51,7 @@ def test_setup_round__resets_flags():
     game.setup_round()
     assert game.skip is False
     assert game.draw2 is False
-    assert game.draw4 is False
+    assert game.draw4 is True
     assert game.direction == 1
 
 
