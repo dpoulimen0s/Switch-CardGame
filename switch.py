@@ -5,7 +5,6 @@ import user_interface as UI
 
 from cards import generate_deck
 
-
 # Game configuration
 MAX_PLAYERS = 4
 HAND_SIZE = 7
@@ -30,6 +29,7 @@ class Switch:
     self.draw4 -- bool indicating that the next player must draw 4 cards
     self.direction -- int, either 1 or -1 indicating direction of play.
     """
+
     def __init__(self):
         self.players = []
         self.stock = []
@@ -73,7 +73,7 @@ class Switch:
                 break
             elif not won:
                 # advance player index depending on self.direction
-                i = (i+self.direction) % len(self.players)
+                i = (i + self.direction) % len(self.players)
             else:
                 continue
         UI.print_winner_of_game(self.players[i])
@@ -97,7 +97,7 @@ class Switch:
         self.direction = 1
         self.skip = False
         self.draw2 = False
-        self.draw4 = True
+        self.draw4 = False
 
     def run_player(self, player):
         """Process a single player's turn.
@@ -182,14 +182,15 @@ class Switch:
         """
         # repeat n times
 
+        # noinspection PyGlobalUndefined
         global i
-        for i in range(1, amount+1):
+        for i in range(1, amount + 1):
             # if no more card in stock pile
             if not self.stock:
                 # add back discarded cards (but not top card)
                 if len(self.discards) == 1:
                     UI.print_message("All cards distributed")
-                    return i-1
+                    return i - 1
                 self.stock = self.discards[:-1]
                 del self.discards[:-1]
                 # shuffle stock

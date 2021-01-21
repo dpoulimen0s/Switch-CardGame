@@ -32,6 +32,7 @@ class MockPlayer:
 
 def mock_setup_round(hands, stock, discards, **flags):
     """Set up a specific game state"""
+
     def str_to_cards(spec):
         return [Card(sv[:1], sv[1:]) for sv in spec.split()]
 
@@ -51,7 +52,7 @@ def test_setup_round__resets_flags():
     game.setup_round()
     assert game.skip is False
     assert game.draw2 is False
-    assert game.draw4 is True
+    assert game.draw4 is False
     assert game.direction == 1
 
 
@@ -62,7 +63,7 @@ def test_setup_round__deals_cards():
     game.setup_round()
     assert all(len(p.hand) == 7 for p in game.players)
     assert len(game.discards) == 1
-    assert len(game.stock) == 52-len(game.players)*7-1
+    assert len(game.stock) == 52 - len(game.players) * 7 - 1
 
 
 def test_pick_up_card__pick_correct_number():
@@ -115,7 +116,6 @@ def test_discard_card__sets_draw4():
     game = mock_setup_round(['♣4 ♡Q', '♣9'], '♢5 ♢6 ♢7 ♢8', '♡3')
     game.discard_card(game.players[0], Card('♡', 'Q'))
     assert not game.draw4
-
 
 
 def test_discard_card__sets_skip():
