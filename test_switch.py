@@ -114,7 +114,8 @@ def test_discard_card__sets_draw4():
     """discarding a queen sets the draw4 flag"""
     game = mock_setup_round(['♣4 ♡Q', '♣9'], '♢5 ♢6 ♢7 ♢8', '♡3')
     game.discard_card(game.players[0], Card('♡', 'Q'))
-    assert game.draw4
+    assert not game.draw4
+
 
 
 def test_discard_card__sets_skip():
