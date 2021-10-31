@@ -53,3 +53,16 @@ Run the test suite with
 The latter assumes that you have installed pytest using
 
     $ pip3 install pytest
+## Built With
+
+* Pycharm IDEA
+* Windows 10
+
+## Authors
+
+* **Dimitris Poulimenos** - *Initial work* - [dpoulimen0s](https://https://github.com/dpoulimen0s)
+
+
+## License
+
+This project is licensed under the Newcastle University License - see the [LICENSE.md](LICENSE) file for details
