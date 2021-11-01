@@ -60,9 +60,9 @@ The latter assumes that you have installed pytest using
 
 ## Authors
 
-* **Dimitris Poulimenos** - *Initial work* - [dpoulimen0s](https://https://github.com/dpoulimen0s)
+* **Dimitris Poulimenos** - *Initial work* - [dpoulimen0s](https://github.com/dpoulimen0s)
 
 
 ## License
 
-This project is licensed under the Newcastle University License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the Newcastle University License - see the [LICENSE.md](https://github.com/dpoulimen0s/Switch-CardGame/blob/master/LICENSE.md) file for details
