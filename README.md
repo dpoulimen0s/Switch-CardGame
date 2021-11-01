@@ -65,4 +65,4 @@ The latter assumes that you have installed pytest using
 
 ## License
 
-This project is licensed under the Newcastle University License - see the [LICENSE.md](https://github.com/dpoulimen0s/Switch-CardGame/blob/master/LICENSE.md) file for details
+This project is licensed under the Newcastle University License - see the [LICENSE](https://github.com/dpoulimen0s/Switch-CardGame/blob/master/LICENSE.md) file for details
