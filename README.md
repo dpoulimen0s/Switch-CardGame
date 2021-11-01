@@ -55,7 +55,7 @@ The latter assumes that you have installed pytest using
     $ pip3 install pytest
 ## Built With
 
-* Pycharm IDEA
+* Pycharm
 * Windows 10
 
 ## Authors
